@@ -29,9 +29,10 @@ public class voiceLauncher {
 				System.out.println("File Manager Closed!");
 			}else if (command.equalsIgnoreCase("open browser")) {
                 System.out.println("Browser Opened!");
-            } else if (command.equalsIgnoreCase("close browser")) {
+            }else if (command.equalsIgnoreCase("close browser")) {
                 System.out.println("Browser Closed!");
             }
 		}
+		//recognize.stopRecognition();
 	}
 }
